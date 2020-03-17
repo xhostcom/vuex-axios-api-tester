@@ -1,6 +1,6 @@
 <template>
   <div id="app center">
-  <h1>API Posts Vuex Axios</h1>
+    <h1>API Posts Vuex Axios</h1>
     <h2 v-for="(item, index) in posts" :key="index">
       {{ item.title }}
     </h2>
@@ -10,6 +10,7 @@
 import { mapState } from "vuex";
 export default {
   name: "App",
+  // data() {},
   mounted() {
     this.$store.dispatch("loadPosts");
   },
@@ -21,10 +22,10 @@ export default {
 </script>
 <style>
 h1 {
-padding:30px;
-text-align:center;
+  padding: 30px;
+  text-align: center;
 }
 h2 {
-text-align:center;
+  text-align: center;
 }
 </style>

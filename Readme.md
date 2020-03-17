@@ -26,7 +26,13 @@ Vue CLI
 
 ## Installation
 
-Clone and run yarn
+Clone and run yarn && yarn serve
+
+Wait a few seconds (5ish) for the default axios api get request output (post titles) to appear on page (and console).
+
+When its done that its working.
+
+Carry On!
 
 ## Configuration
 
